@@ -49,17 +49,17 @@ body{
 
 #title-one {
   background-color: #D59898;
-  text-color: black;
+  color: black;
 } 
 
 #title-two{
   background-color: #C14543;
-  text-color: white;
+  color: white;
 }
 
 #title-three{
   background-color: #E5D198;
-  text-color: black;
+  color: black;
 }
 
 /* Simple Responsive Framework. */
