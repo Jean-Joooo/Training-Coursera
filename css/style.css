@@ -18,13 +18,13 @@ body{
 }
 
 .container{
- position: center;
+ position: relative;
  top:60px;
  margin: 15px; 
 }
 
 .item{
-  position: center;
+  position: relative;
   top: 0;
   background-color:#999999;
   margin: 15px;
@@ -42,22 +42,24 @@ body{
   position: absolute;
   top:0;
   right: 0px;
-  background: green; 
   padding: 6px 90px;
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
 }
 
 #title-one {
-  background-color: grey;
+  background-color: #D59898;
+  text-color: black;
 } 
 
 #title-two{
-  background-color: grey;
+  background-color: #C14543;
+  text-color: white;
 }
 
 #title-three{
-  background-color: grey;
+  background-color: #E5D198;
+  text-color: black;
 }
 
 /* Simple Responsive Framework. */
@@ -104,6 +106,7 @@ body{
   }
 
 }
+
 
 /*------ Tablet ------*/
 @media (min-width: 768px) and (max-width: 991px){
